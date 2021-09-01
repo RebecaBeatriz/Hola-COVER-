@@ -1,0 +1,153 @@
+*{margin: 0;
+box-sizing: border-box;
+padding: 0;}
+
+header { width: 100%;
+        height: auto;
+    }
+
+body {font-family: 'Barlow', sans-serif ;}
+
+        
+
+p {color: gray;
+    }
+
+nav {width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+a {font-family: 'Gochi Hand', cursive;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;}
+
+a:hover {color: white;} 
+
+
+nav img {width: 150px;}
+
+#horario {
+    height: 250px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 35px;
+    }
+ul { text-align: center;
+list-style: none;}
+
+h1 {font-family: 'Gochi Hand', cursive;}
+
+header {background-color: #F6F64F;}
+
+#ilusdig{   width: 100%;
+        height: 250px;
+        background-image: url(img/nejo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: -399px;
+        color: white;
+        line-height: 250px;       
+}
+ /* width: 250px;
+        height: 250px;
+        color: white;
+        line-height: 250px;
+        background-image: url(img/stickers.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+         }*/
+
+#sticker{
+        width: 100%;
+        height: 250px;
+        color: white;
+        line-height: 250px;
+        background-image: url(img/stickers.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -251px;
+         }
+
+#remera { 
+        width: 100%;
+        height: 250px;
+        background-image: url(img/remeramock.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        background-position-y: -191px;
+        line-height: 250px}
+
+#cuaderno {
+         width: 100%;
+        height: 250px;
+        color: white;
+        line-height: 250px;
+        background-image: url(img/cuaderno.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: center;}
+
+section div h2 { margin-left: 12%;
+                }
+ .caja2 {
+                
+            -webkit-transition: font-size 1s ease;
+            transition: font-size 1s ease;
+                  }
+  .caja2:hover {
+                    font-size: 28px;
+                  }
+                  
+                  
+
+
+footer { background-color: #66C09B;
+        height: 100px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+footer i {margin-left: 15px;
+           }
+
+main {margin: 100px 200px;
+       }
+
+form {margin-top: 35px;}
+
+iframe { border-radius: 5px;
+                } 
+
+
+                
+h2{color: white;
+    }
+
+.resaltado {color: #66C09B;
+    ;}
+
+.resaltadobis {color: #66C09B;
+    text-align: center
+        ;}
+    
+
+    
+
+
+aside{width: 30%;
+    height: auto;
+    padding: 3%;
+    }
+
+    
+
+.ubic { display: flex ;
+        width: 100%;
+    height: auto;}
+
+

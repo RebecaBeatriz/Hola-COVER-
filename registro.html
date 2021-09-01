@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,700&family=Gochi+Hand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>COVER~</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="home.html"><img src="../COVER/img/logo-03-02.png" alt="logocover"></a>
+            <a href="index.html">Acerca de COVER!</a>
+            <a href="terminos.html">Modalidad</a>
+            <a href="registro.html">Regístrate</a>
+            <a href="ubicacion.html">Estamos en!</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Registra tu consulta</h1> <br>
+        <p>Dejanos tu mensaje a traves de este formulario, o escríbenos a cover.dyc@gmail.com <br>
+            Te contestaremos a la brevedad.</p>
+
+        <form action="post">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="name" id="nombre" value-size="40" placeholder="Rebeca Beatriz" autofocus required>
+            <br>
+            <br>
+            <label for="asunto">Asunto:</label>
+            <select name="asunto" id="asunto" aria-selected="presupuesto">
+                <option value="presupuesto">Presupuesto</option>
+                <option value="ilusdigital">Ilustración digital</option>
+                <option value="ilusaplicada">Ilustración aplicada</option>
+                <option value="pedido">Pedido</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="mail">E-mail:</label>
+            <input type="email" name="mail" id="correo" placeholder="tumail" value-size="40">
+            <br>
+            <br>
+            <label for="msj"> Comentario:</label> <br>
+            <textarea name="comentario" id="msj" cols="40" rows="10" placeholder="Escríbenos tu mensaje..."></textarea>
+            <br> <br>
+            <input type="submit" value="Enviar"> </input>
+
+
+        </form>
+
+
+
+    </main>
+
+
+
+    <footer>
+
+        COVER! - Buenos Aires 2020
+
+        <a href="https://giphy.com/channel/reboo"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/hola_cover/"><i class="fab fa-instagram"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="far fa-envelope"></i></a>
+
+
+
+    </footer>
+</body>
+
+</html>
